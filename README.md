@@ -183,10 +183,10 @@ The platform is designed for cloud-scale environments similar to AWS infrastruct
 ## Live Demo
 
 **Frontend:**
-YOUR_VERCEL_URL
+https://cloud-logfm.vercel.app/
 
 **Backend:**
-YOUR_RENDER_URL
+https://cloudlogfm-api.onrender.com/
 
 ---
 
