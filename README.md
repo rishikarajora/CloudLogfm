@@ -112,6 +112,38 @@ The platform generates incident intelligence reports including severity and root
 
 ---
 
+## Dataset
+
+The project uses publicly available log datasets obtained from Kaggle for LogBERT training, anomaly detection, and incident retrieval experiments.
+
+### Dataset Contents
+
+- System Log Events
+- Cloud Infrastructure Logs
+- Event Templates
+- Incident Metadata
+- Historical Log Sequences
+
+### Data Processing Workflow
+
+Raw Logs
+→ Log Parsing
+→ Event Template Extraction
+→ Sequence Generation
+→ Tokenization
+→ LogBERT Training
+→ Embedding Generation
+→ FAISS Index Construction
+
+### Generated Assets
+
+- Vocabulary File (`vocab.json`)
+- LogBERT Embeddings
+- FAISS Vector Index (`logbert.index`)
+- Incident Metadata Repository
+
+The processed dataset is transformed into structured event sequences that are used for anomaly detection, incident similarity retrieval, and root cause analysis.
+
 ## Technology Stack
 
 ### Machine Learning
