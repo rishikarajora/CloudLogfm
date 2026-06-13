@@ -1,0 +1,12 @@
+{
+    "31": "Data TLB Failure",
+    "33": "Machine Check Exception",
+    "78": "Runtime System Panic",
+    "105": "Runtime Internal Error",
+    "11": "DDR Memory Degradation",
+    "79": "Torus Network Receiver Failure",
+    "81": "Tree Network Synchronization Failure",
+    "4": "Core Dump Generation",
+    "16": "Application Load Failure",
+    "27": "Control Stream Failure"
+}
