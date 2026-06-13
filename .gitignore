@@ -6,7 +6,7 @@ data/raw/
 data/parsed/
 data/processed/
 data/sequences/
-data/embeddings/
+# data/embeddings/
 
 #ml/checkpoints/
 
